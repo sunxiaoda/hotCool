@@ -1,0 +1,43 @@
+
+//
+//  Hotcool.pch
+//  HotcoolDemo
+//
+//  Created by zero on 2017/6/18.
+//  Copyright © 2017年 cl. All rights reserved.
+//
+
+#import "UIView+Extension.h"
+#import "circleView.h"
+#import "MoreButton.h"
+
+#ifndef Hotcool_pch
+#define Hotcool_pch
+
+//屏幕的宽高
+#define KSCREENW [UIScreen mainScreen].bounds.size.width
+#define KSCREENH [UIScreen mainScreen].bounds.size.height
+//导航栏高度
+#define KNavBarHeight self.navigationController.navigationBar.frame.size.height
+//状态栏高度
+#define KstatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+//tabbar高度
+#define KTabbarHeight self.tabBarController.tabBar.frame.size.height
+//导航栏+状态栏 高度
+#define KMAXYNavBar (KNavBarHeight + KstatusBarHeight)
+
+//文字大小设置
+#define SYStemFont(n) [UIFont systemFontOfSize:(n)]
+
+
+//间隙margin
+#define MARGIN5 5
+#define MARGIN8 8
+#define MARGIN10 10
+#define MARGIN7 4
+#define MarginX12 12
+#define MarginX16 16
+
+
+
+#endif /* Hotcool_pch */

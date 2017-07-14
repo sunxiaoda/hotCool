@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7DA3E31EF7C7E900F1304B /* MoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7DA3E21EF7C7E900F1304B /* MoreButton.m */; };
+		DA49FCA41EF67FFE00FEE905 /* SunBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCA31EF67FFE00FEE905 /* SunBaseViewController.m */; };
+		DA49FCA71EF6801B00FEE905 /* SunHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCA61EF6801B00FEE905 /* SunHomeViewController.m */; };
+		DA49FCA91EF6835B00FEE905 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA49FCA81EF6835B00FEE905 /* MapKit.framework */; };
+		DA49FCAD1EF6889100FEE905 /* leftView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCAC1EF6889100FEE905 /* leftView.m */; };
+		DA49FCB01EF688A600FEE905 /* rightView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCAF1EF688A600FEE905 /* rightView.m */; };
+		DA49FCB31EF688AF00FEE905 /* bottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCB21EF688AF00FEE905 /* bottomView.m */; };
+		DA49FCB61EF688DE00FEE905 /* circleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCB51EF688DE00FEE905 /* circleView.m */; };
+		DA49FCDB1EF68C4E00FEE905 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49FCDA1EF68C4E00FEE905 /* UIView+Extension.m */; };
+		DADEBF2C1EF675B10002E8FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEBF2B1EF675B10002E8FA /* main.m */; };
+		DADEBF2F1EF675B10002E8FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEBF2E1EF675B10002E8FA /* AppDelegate.m */; };
+		DADEBF321EF675B10002E8FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEBF311EF675B10002E8FA /* ViewController.m */; };
+		DADEBF351EF675B10002E8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADEBF331EF675B10002E8FA /* Main.storyboard */; };
+		DADEBF371EF675B10002E8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADEBF361EF675B10002E8FA /* Assets.xcassets */; };
+		DADEBF3A1EF675B10002E8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADEBF381EF675B10002E8FA /* LaunchScreen.storyboard */; };
+		DADEBF451EF675B10002E8FA /* HotcoolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEBF441EF675B10002E8FA /* HotcoolDemoTests.m */; };
+		DADEBF501EF675B10002E8FA /* HotcoolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEBF4F1EF675B10002E8FA /* HotcoolDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADEBF411EF675B10002E8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADEBF1F1EF675B10002E8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADEBF261EF675B10002E8FA;
+			remoteInfo = HotcoolDemo;
+		};
+		DADEBF4C1EF675B10002E8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADEBF1F1EF675B10002E8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADEBF261EF675B10002E8FA;
+			remoteInfo = HotcoolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC7DA3E11EF7C7E900F1304B /* MoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreButton.h; sourceTree = "<group>"; };
+		CC7DA3E21EF7C7E900F1304B /* MoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreButton.m; sourceTree = "<group>"; };
+		DA49FCA21EF67FFE00FEE905 /* SunBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunBaseViewController.h; sourceTree = "<group>"; };
+		DA49FCA31EF67FFE00FEE905 /* SunBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunBaseViewController.m; sourceTree = "<group>"; };
+		DA49FCA51EF6801B00FEE905 /* SunHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunHomeViewController.h; sourceTree = "<group>"; };
+		DA49FCA61EF6801B00FEE905 /* SunHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunHomeViewController.m; sourceTree = "<group>"; };
+		DA49FCA81EF6835B00FEE905 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DA49FCAA1EF6871B00FEE905 /* Hotcool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hotcool.pch; sourceTree = "<group>"; };
+		DA49FCAB1EF6889100FEE905 /* leftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftView.h; sourceTree = "<group>"; };
+		DA49FCAC1EF6889100FEE905 /* leftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftView.m; sourceTree = "<group>"; };
+		DA49FCAE1EF688A600FEE905 /* rightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rightView.h; sourceTree = "<group>"; };
+		DA49FCAF1EF688A600FEE905 /* rightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rightView.m; sourceTree = "<group>"; };
+		DA49FCB11EF688AF00FEE905 /* bottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bottomView.h; sourceTree = "<group>"; };
+		DA49FCB21EF688AF00FEE905 /* bottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bottomView.m; sourceTree = "<group>"; };
+		DA49FCB41EF688DE00FEE905 /* circleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circleView.h; sourceTree = "<group>"; };
+		DA49FCB51EF688DE00FEE905 /* circleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = circleView.m; sourceTree = "<group>"; };
+		DA49FCD91EF68C4E00FEE905 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DA49FCDA1EF68C4E00FEE905 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		DADEBF271EF675B10002E8FA /* HotcoolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotcoolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEBF2B1EF675B10002E8FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADEBF2D1EF675B10002E8FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		DADEBF2E1EF675B10002E8FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		DADEBF301EF675B10002E8FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DADEBF311EF675B10002E8FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DADEBF341EF675B10002E8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADEBF361EF675B10002E8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADEBF391EF675B10002E8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADEBF3B1EF675B10002E8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADEBF401EF675B10002E8FA /* HotcoolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotcoolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEBF441EF675B10002E8FA /* HotcoolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotcoolDemoTests.m; sourceTree = "<group>"; };
+		DADEBF461EF675B10002E8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADEBF4B1EF675B10002E8FA /* HotcoolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotcoolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADEBF4F1EF675B10002E8FA /* HotcoolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotcoolDemoUITests.m; sourceTree = "<group>"; };
+		DADEBF511EF675B10002E8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADEBF241EF675B10002E8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA49FCA91EF6835B00FEE905 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEBF3D1EF675B10002E8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEBF481EF675B10002E8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA49FC9F1EF67F8600FEE905 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA49FCA11EF67FB900FEE905 /* View */,
+				DA49FCA01EF67FB100FEE905 /* Controller */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DA49FCA01EF67FB100FEE905 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA49FCA51EF6801B00FEE905 /* SunHomeViewController.h */,
+				DA49FCA61EF6801B00FEE905 /* SunHomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DA49FCA11EF67FB900FEE905 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA49FCAB1EF6889100FEE905 /* leftView.h */,
+				DA49FCAC1EF6889100FEE905 /* leftView.m */,
+				DA49FCAE1EF688A600FEE905 /* rightView.h */,
+				DA49FCAF1EF688A600FEE905 /* rightView.m */,
+				DA49FCB11EF688AF00FEE905 /* bottomView.h */,
+				DA49FCB21EF688AF00FEE905 /* bottomView.m */,
+				DA49FCB41EF688DE00FEE905 /* circleView.h */,
+				DA49FCB51EF688DE00FEE905 /* circleView.m */,
+				CC7DA3E11EF7C7E900F1304B /* MoreButton.h */,
+				CC7DA3E21EF7C7E900F1304B /* MoreButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DADEBF1E1EF675B10002E8FA = {
+			isa = PBXGroup;
+			children = (
+				DA49FCA81EF6835B00FEE905 /* MapKit.framework */,
+				DADEBF291EF675B10002E8FA /* HotcoolDemo */,
+				DADEBF431EF675B10002E8FA /* HotcoolDemoTests */,
+				DADEBF4E1EF675B10002E8FA /* HotcoolDemoUITests */,
+				DADEBF281EF675B10002E8FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADEBF281EF675B10002E8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADEBF271EF675B10002E8FA /* HotcoolDemo.app */,
+				DADEBF401EF675B10002E8FA /* HotcoolDemoTests.xctest */,
+				DADEBF4B1EF675B10002E8FA /* HotcoolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADEBF291EF675B10002E8FA /* HotcoolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DA49FCAA1EF6871B00FEE905 /* Hotcool.pch */,
+				DADEBF5D1EF676D30002E8FA /* Classes */,
+				DADEBF301EF675B10002E8FA /* ViewController.h */,
+				DADEBF311EF675B10002E8FA /* ViewController.m */,
+				DADEBF331EF675B10002E8FA /* Main.storyboard */,
+				DADEBF361EF675B10002E8FA /* Assets.xcassets */,
+				DADEBF381EF675B10002E8FA /* LaunchScreen.storyboard */,
+				DADEBF3B1EF675B10002E8FA /* Info.plist */,
+				DADEBF2A1EF675B10002E8FA /* Supporting Files */,
+			);
+			path = HotcoolDemo;
+			sourceTree = "<group>";
+		};
+		DADEBF2A1EF675B10002E8FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADEBF2B1EF675B10002E8FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADEBF431EF675B10002E8FA /* HotcoolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADEBF441EF675B10002E8FA /* HotcoolDemoTests.m */,
+				DADEBF461EF675B10002E8FA /* Info.plist */,
+			);
+			path = HotcoolDemoTests;
+			sourceTree = "<group>";
+		};
+		DADEBF4E1EF675B10002E8FA /* HotcoolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DADEBF4F1EF675B10002E8FA /* HotcoolDemoUITests.m */,
+				DADEBF511EF675B10002E8FA /* Info.plist */,
+			);
+			path = HotcoolDemoUITests;
+			sourceTree = "<group>";
+		};
+		DADEBF5D1EF676D30002E8FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA49FC9F1EF67F8600FEE905 /* Home */,
+				DADEBF5E1EF676D30002E8FA /* Base */,
+				DADEBF5F1EF676D30002E8FA /* Untils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DADEBF5E1EF676D30002E8FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DADEBF2D1EF675B10002E8FA /* AppDelegate.h */,
+				DADEBF2E1EF675B10002E8FA /* AppDelegate.m */,
+				DA49FCA21EF67FFE00FEE905 /* SunBaseViewController.h */,
+				DA49FCA31EF67FFE00FEE905 /* SunBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DADEBF5F1EF676D30002E8FA /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				DA49FCD91EF68C4E00FEE905 /* UIView+Extension.h */,
+				DA49FCDA1EF68C4E00FEE905 /* UIView+Extension.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADEBF261EF675B10002E8FA /* HotcoolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEBF541EF675B10002E8FA /* Build configuration list for PBXNativeTarget "HotcoolDemo" */;
+			buildPhases = (
+				DADEBF231EF675B10002E8FA /* Sources */,
+				DADEBF241EF675B10002E8FA /* Frameworks */,
+				DADEBF251EF675B10002E8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotcoolDemo;
+			productName = HotcoolDemo;
+			productReference = DADEBF271EF675B10002E8FA /* HotcoolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADEBF3F1EF675B10002E8FA /* HotcoolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEBF571EF675B10002E8FA /* Build configuration list for PBXNativeTarget "HotcoolDemoTests" */;
+			buildPhases = (
+				DADEBF3C1EF675B10002E8FA /* Sources */,
+				DADEBF3D1EF675B10002E8FA /* Frameworks */,
+				DADEBF3E1EF675B10002E8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADEBF421EF675B10002E8FA /* PBXTargetDependency */,
+			);
+			name = HotcoolDemoTests;
+			productName = HotcoolDemoTests;
+			productReference = DADEBF401EF675B10002E8FA /* HotcoolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADEBF4A1EF675B10002E8FA /* HotcoolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADEBF5A1EF675B10002E8FA /* Build configuration list for PBXNativeTarget "HotcoolDemoUITests" */;
+			buildPhases = (
+				DADEBF471EF675B10002E8FA /* Sources */,
+				DADEBF481EF675B10002E8FA /* Frameworks */,
+				DADEBF491EF675B10002E8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADEBF4D1EF675B10002E8FA /* PBXTargetDependency */,
+			);
+			name = HotcoolDemoUITests;
+			productName = HotcoolDemoUITests;
+			productReference = DADEBF4B1EF675B10002E8FA /* HotcoolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADEBF1F1EF675B10002E8FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cl;
+				TargetAttributes = {
+					DADEBF261EF675B10002E8FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7C6KRGW386;
+					};
+					DADEBF3F1EF675B10002E8FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DADEBF261EF675B10002E8FA;
+					};
+					DADEBF4A1EF675B10002E8FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DADEBF261EF675B10002E8FA;
+					};
+				};
+			};
+			buildConfigurationList = DADEBF221EF675B10002E8FA /* Build configuration list for PBXProject "HotcoolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADEBF1E1EF675B10002E8FA;
+			productRefGroup = DADEBF281EF675B10002E8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADEBF261EF675B10002E8FA /* HotcoolDemo */,
+				DADEBF3F1EF675B10002E8FA /* HotcoolDemoTests */,
+				DADEBF4A1EF675B10002E8FA /* HotcoolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADEBF251EF675B10002E8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEBF3A1EF675B10002E8FA /* LaunchScreen.storyboard in Resources */,
+				DADEBF371EF675B10002E8FA /* Assets.xcassets in Resources */,
+				DADEBF351EF675B10002E8FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEBF3E1EF675B10002E8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEBF491EF675B10002E8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADEBF231EF675B10002E8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA49FCB01EF688A600FEE905 /* rightView.m in Sources */,
+				DADEBF321EF675B10002E8FA /* ViewController.m in Sources */,
+				DA49FCAD1EF6889100FEE905 /* leftView.m in Sources */,
+				DADEBF2F1EF675B10002E8FA /* AppDelegate.m in Sources */,
+				DA49FCDB1EF68C4E00FEE905 /* UIView+Extension.m in Sources */,
+				DA49FCA71EF6801B00FEE905 /* SunHomeViewController.m in Sources */,
+				DA49FCA41EF67FFE00FEE905 /* SunBaseViewController.m in Sources */,
+				CC7DA3E31EF7C7E900F1304B /* MoreButton.m in Sources */,
+				DA49FCB61EF688DE00FEE905 /* circleView.m in Sources */,
+				DADEBF2C1EF675B10002E8FA /* main.m in Sources */,
+				DA49FCB31EF688AF00FEE905 /* bottomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEBF3C1EF675B10002E8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEBF451EF675B10002E8FA /* HotcoolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADEBF471EF675B10002E8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEBF501EF675B10002E8FA /* HotcoolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADEBF421EF675B10002E8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADEBF261EF675B10002E8FA /* HotcoolDemo */;
+			targetProxy = DADEBF411EF675B10002E8FA /* PBXContainerItemProxy */;
+		};
+		DADEBF4D1EF675B10002E8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADEBF261EF675B10002E8FA /* HotcoolDemo */;
+			targetProxy = DADEBF4C1EF675B10002E8FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADEBF331EF675B10002E8FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADEBF341EF675B10002E8FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADEBF381EF675B10002E8FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADEBF391EF675B10002E8FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADEBF521EF675B10002E8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HotcoolDemo/Hotcool.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DADEBF531EF675B10002E8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HotcoolDemo/Hotcool.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADEBF551EF675B10002E8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7C6KRGW386;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HotcoolDemo/Hotcool.pch";
+				INFOPLIST_FILE = HotcoolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexiang.HotcoolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DADEBF561EF675B10002E8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7C6KRGW386;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HotcoolDemo/Hotcool.pch";
+				INFOPLIST_FILE = HotcoolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexiang.HotcoolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DADEBF581EF675B10002E8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotcoolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexiang.HotcoolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotcoolDemo.app/HotcoolDemo";
+			};
+			name = Debug;
+		};
+		DADEBF591EF675B10002E8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotcoolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexiang.HotcoolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotcoolDemo.app/HotcoolDemo";
+			};
+			name = Release;
+		};
+		DADEBF5B1EF675B10002E8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotcoolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexiang.HotcoolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotcoolDemo;
+			};
+			name = Debug;
+		};
+		DADEBF5C1EF675B10002E8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotcoolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexiang.HotcoolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotcoolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADEBF221EF675B10002E8FA /* Build configuration list for PBXProject "HotcoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEBF521EF675B10002E8FA /* Debug */,
+				DADEBF531EF675B10002E8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEBF541EF675B10002E8FA /* Build configuration list for PBXNativeTarget "HotcoolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEBF551EF675B10002E8FA /* Debug */,
+				DADEBF561EF675B10002E8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEBF571EF675B10002E8FA /* Build configuration list for PBXNativeTarget "HotcoolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEBF581EF675B10002E8FA /* Debug */,
+				DADEBF591EF675B10002E8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADEBF5A1EF675B10002E8FA /* Build configuration list for PBXNativeTarget "HotcoolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADEBF5B1EF675B10002E8FA /* Debug */,
+				DADEBF5C1EF675B10002E8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADEBF1F1EF675B10002E8FA /* Project object */;
+}
